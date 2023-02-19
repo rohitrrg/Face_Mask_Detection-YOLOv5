@@ -43,4 +43,32 @@ You can also Detect any specific class like only faces which are not wearing or 
 
 ![South-Korea-introduces-mask-mandate-in-COVID-19-fight](https://user-images.githubusercontent.com/43450375/219920220-3c82cc24-140e-4389-a8ac-f398d2464d3f.jpg)
 
+Other arguments
 
+    --weights	   	    'model path or triton URL'
+    --source		    'file/dir/URL/glob/screen/0(webcam)'
+    --data 			    (optional) dataset.yaml path'
+    --img'			    'inference size h,w'
+    --conf-thres	    'confidence threshold'
+    --iou-thres		    'NMS IoU threshold'
+    --max-det		    'maximum detections per image'
+    --device		    'cuda device, i.e. 0 or 0,1,2,3 or cpu'
+    --view-img		    'show results'
+    --save-txt		    'save results to *.txt'
+    --save-conf		    'save confidences in --save-txt labels'
+    --save-crop		    'save cropped prediction boxes'
+    --nosave		    'do not save images/videos'
+    --classes		    'filter by class: --classes 0, or --classes 0 2 3'
+    --agnostic-nms	    'class-agnostic NMS'
+    --augment		    'augmented inference'
+    --visualize		    'visualize features'
+    --update		    'update all models'
+    --project		    'save results to project/name'
+    --name			    'save results to project/name'
+    --exist-ok		    'existing project/name ok, do not increment'
+    --line-thickness    'bounding box thickness (pixels)'
+    --hide-labels		'hide labels'
+    --hide-conf		    'hide confidences'
+    --half			    'use FP16 half-precision inference'
+    --dnn			    'use OpenCV DNN for ONNX inference'
+    --vid-stride		'video frame-rate stride'
