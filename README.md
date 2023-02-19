@@ -35,8 +35,12 @@ You can run YOLOv5 detection inference on images, videos, directories, globs, Yo
                                                      'https://youtu.be/Zgi9g1ksQHc'  # YouTube
                                                      'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
 
+![South-Korea-introduces-mask-mandate-in-COVID-19-fight](https://user-images.githubusercontent.com/43450375/219920117-b48fee9d-2659-4e99-ac24-dae786c2d44e.jpg)
 
 You can also Detect any specific class like only faces which are not wearing or incorrectly wearing masks in the crowd.
 
     python detect.py --weights best.pt --source img.jpg --classes 1 2
+
+![South-Korea-introduces-mask-mandate-in-COVID-19-fight](https://user-images.githubusercontent.com/43450375/219920220-3c82cc24-140e-4389-a8ac-f398d2464d3f.jpg)
+
 
