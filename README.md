@@ -7,7 +7,7 @@ YOLOv5 rocket is a family of object detection architectures and models pretraine
 Face mask detection refers to detect whether a person is wearing a mask or not. In fact, the problem is reverse engineering of face detection where the face is detected using different machine learning algorithms for the purpose of security, authentication and surveillance.
 
 ## How to use ?
-## 1. Environment Setup
+### 1. Environment Setup
 clone this GitHub repository
 
     git clone https://github.com/rohitrrg/Face_Mask_Detection-YOLOv5.git
@@ -20,7 +20,7 @@ install necessary packages
 
     pip install -r requirements.txt
 
-## 2. Run Inference
+### 2. Run Inference
 You can run YOLOv5 detection inference on images, videos, directories, globs, YouTube, webcam, streams, etc.
 
   
@@ -35,4 +35,8 @@ You can run YOLOv5 detection inference on images, videos, directories, globs, Yo
                                                      'https://youtu.be/Zgi9g1ksQHc'  # YouTube
                                                      'rtsp://example.com/media.mp4'  # RTSP, RTMP, HTTP stream
 
+
+You can also Detect any specific class like only faces which are not wearing or incorrectly wearing masks in the crowd.
+
+    python detect.py --weights best.pt --source img.jpg --classes 1 2
 
